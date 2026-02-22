@@ -1,0 +1,42 @@
+#q1 part b #Answer
+print("question 1:")
+print("{1, 2} ? {3, 4} ? {2} = {1, 3, 4}")
+print("Answer")
+print({1,2} | {3,4} - {2})
+print()
+
+print("question 2:")
+print("{1, 2, 3, 4} ? {3, 4} ? {1, 2} = {1, 2}")
+print("Answer:")
+print({1,2,3,4} - {3,4} | {1,2})
+print()
+
+print("question 3:")
+print("{1, 2, 3} ? {2, 3} ? {1, 4} = {2, 3, 4}")
+print("Answer:")
+print(({1,2,3} & {2,3}) |{4})
+print()
+
+print("question 4:")
+print("{1, 2, 3, 4, 5} ? {2, 4} ? {1, 2, 3} = {4, 5}")
+print("Answer:")
+print(({1,2,3,4,5} - {1,2,3}) ^ {2,4})
+print()
+
+print("question 5:")
+print("{1, 2, 3, 4} ? {2, 4, 6} ? {2} = {2}")
+print("Answer:")
+print(({1,2,3,4} & {2,4,6}) & {2})
+print()
+
+print("question 6:")
+print("{1, 2, 3, 4} ? {3, 4, 5} ? {1, 5} = {2, 3, 4}")
+print("Answer:")
+print(({1,2,3,4} | {3,4,5}) - {1,5})
+print()
+
+print("question 7:")
+print("{1, 2, 3} ? {3, 4, 5} ? {1, 2, 4} = {5}")
+print("Answer:")
+print(({1,2,3} ^ {3,4,5}) - {1,2,4})
+print()
