@@ -1,48 +1,57 @@
 #q1 part a
-
-
-
-
-
+print("question 1:")
+print("{1, 2} ? {3, 4} = {1, 2, 3, 4}")
+print("answer:")
 print({1,2,} | {3,4})
+print()
+print("*****************************")
 
-
-
-
+print("question 2:")
+print("{1, 2, 3} ? {3, 4} = {3}")
+print("answer:")
 print({1,2,3} & {3,4})
+print()
+print("*****************************")
 
-
-
-
-
+print("question 3:")
+print("{1, 2, 3, 4} ? {3, 4} = {1, 2}")
+print("answer:")
 print({1,2,3,4} - {3,4})
+print()
+print("*****************************")
 
-
-
-
+print("question 4:")
+print("{1, 2, 3} ? {3, 4} = {1, 2, 4}")
+print("answer:")
 print({1,2,3} ^ {3,4})
+print()
+print("*****************************")
 
-
-
-
-
+print("question 5:")
+print("{1, 2, 3, 4} ? {1, 2} = True")
+print("answer:")
 print({1,2,3,4} >= {1,2,})
+print()
+print("*****************************")
 
-
-
-
-
+print("question 6:")
+print("{1, 2} ? {1, 2, 3, 4} = True")
+print("answer:")
 print({1,2} <= {1,2,3,4})
+print()
+print("*****************************")
 
-
-
-
-
+print("question 7:")
+print("{5, 6} ? {6, 7} = {5, 6, 7}")
+print("answer:")
 print({5,6} | {6,7})
+print()
+print("*****************************")
 
-
-
-
-
-
+print("question 8:")
+print("{10, 11, 12} ? {12, 13} = {10, 11}")
+print("answer:")
 print({10,11,12} - {12,13})
+print()
+print("*****************************")
+
